@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="8mU-NI-3PM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="8mU-NI-3PM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,176 +16,258 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mTU-Le-zPn">
-                                <rect key="frame" x="29" y="303" width="20" height="30"/>
-                                <animations/>
-                                <accessibility key="accessibilityConfiguration" label="1"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="1">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EUT-pc-thl">
-                                <rect key="frame" x="110" y="303" width="20" height="30"/>
-                                <animations/>
-                                <accessibility key="accessibilityConfiguration" label="2"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="2">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wdu-kW-1cq">
-                                <rect key="frame" x="191" y="303" width="20" height="30"/>
-                                <animations/>
-                                <accessibility key="accessibilityConfiguration" label="3"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="3">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rTm-G3-deF">
-                                <rect key="frame" x="29" y="375" width="20" height="30"/>
-                                <animations/>
-                                <accessibility key="accessibilityConfiguration" label="4"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="4">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Se-RN-pgZ">
-                                <rect key="frame" x="110" y="375" width="20" height="30"/>
-                                <animations/>
-                                <accessibility key="accessibilityConfiguration" label="5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="5">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NbG-23-VA1">
-                                <rect key="frame" x="191" y="375" width="20" height="30"/>
-                                <animations/>
-                                <accessibility key="accessibilityConfiguration" label="6"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="6">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RNU-7g-SM4">
-                                <rect key="frame" x="29" y="447" width="20" height="30"/>
-                                <animations/>
-                                <accessibility key="accessibilityConfiguration" label="7"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="7">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DB0-kA-tll">
-                                <rect key="frame" x="110" y="447" width="20" height="30"/>
-                                <animations/>
-                                <accessibility key="accessibilityConfiguration" label="8"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="8">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fbb-Rv-xZy">
-                                <rect key="frame" x="29" y="519" width="20" height="30"/>
-                                <animations/>
-                                <accessibility key="accessibilityConfiguration" label="0"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="0">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cel-WX-uPK">
-                                <rect key="frame" x="110" y="519" width="20" height="30"/>
-                                <animations/>
-                                <accessibility key="accessibilityConfiguration" label="."/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title=".">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EpZ-UJ-p7h">
-                                <rect key="frame" x="191" y="519" width="20" height="30"/>
-                                <animations/>
-                                <accessibility key="accessibilityConfiguration" label="="/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="=">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TMm-EA-SSY">
-                                <rect key="frame" x="272" y="447" width="20" height="30"/>
-                                <animations/>
-                                <accessibility key="accessibilityConfiguration" label="-"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="-">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zES-c3-49V">
-                                <rect key="frame" x="272" y="375" width="20" height="30"/>
-                                <animations/>
-                                <accessibility key="accessibilityConfiguration" label="x"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="x">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1TZ-nz-qdy">
-                                <rect key="frame" x="272" y="303" width="20" height="30"/>
-                                <animations/>
-                                <accessibility key="accessibilityConfiguration" label="/"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="/">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Mv-tY-Kmr">
-                                <rect key="frame" x="272" y="519" width="20" height="30"/>
-                                <animations/>
-                                <accessibility key="accessibilityConfiguration" label="+"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="+">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pa0-Mb-Q0M">
-                                <rect key="frame" x="191" y="447" width="20" height="30"/>
-                                <animations/>
-                                <accessibility key="accessibilityConfiguration" label="9"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="9">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lvx-iX-YZJ" userLabel="Top View">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="284"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="42s-Wj-R1Z">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <subviews>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yV0-KJ-CTc">
-                                        <rect key="frame" x="18" y="127" width="284" height="30"/>
-                                        <animations/>
-                                        <accessibility key="accessibilityConfiguration" label="displayTextField"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lvx-iX-YZJ" userLabel="Top View">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="284"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="A1f-D0-jtm">
+                                                <rect key="frame" x="20" y="30" width="280" height="119.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <accessibility key="accessibilityConfiguration" label="topContainerView">
+                                            <bool key="isElement" value="YES"/>
+                                        </accessibility>
+                                        <constraints>
+                                            <constraint firstItem="A1f-D0-jtm" firstAttribute="top" secondItem="Lvx-iX-YZJ" secondAttribute="top" constant="30" id="6Zg-5V-xcf"/>
+                                            <constraint firstAttribute="trailing" secondItem="A1f-D0-jtm" secondAttribute="trailing" constant="20" id="W6G-H3-E9K"/>
+                                            <constraint firstItem="A1f-D0-jtm" firstAttribute="leading" secondItem="Lvx-iX-YZJ" secondAttribute="leading" constant="20" id="vZv-mq-Gsc"/>
+                                        </constraints>
+                                    </view>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="GyT-9J-vd5">
+                                        <rect key="frame" x="0.0" y="284" width="320" height="284"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="p0x-0P-Qq5">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="71"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mTU-Le-zPn">
+                                                        <rect key="frame" x="0.0" y="0.0" width="80" height="71"/>
+                                                        <accessibility key="accessibilityConfiguration" label="1"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                        <state key="normal" title="1">
+                                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="numberSelected:" destination="8mU-NI-3PM" eventType="touchUpInside" id="7g2-xf-NPE"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EUT-pc-thl">
+                                                        <rect key="frame" x="80" y="0.0" width="80" height="71"/>
+                                                        <accessibility key="accessibilityConfiguration" label="2"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                        <state key="normal" title="2">
+                                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="numberSelected:" destination="8mU-NI-3PM" eventType="touchUpInside" id="5gy-l2-vQa"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wdu-kW-1cq">
+                                                        <rect key="frame" x="160" y="0.0" width="80" height="71"/>
+                                                        <accessibility key="accessibilityConfiguration" label="3"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                        <state key="normal" title="3">
+                                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="numberSelected:" destination="8mU-NI-3PM" eventType="touchUpInside" id="aze-O0-4Yo"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1TZ-nz-qdy">
+                                                        <rect key="frame" x="240" y="0.0" width="80" height="71"/>
+                                                        <accessibility key="accessibilityConfiguration" label="/"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                        <state key="normal" title="/">
+                                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="operationSelected:" destination="8mU-NI-3PM" eventType="touchUpInside" id="J9y-Z7-iq9"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="OSF-eT-AHI">
+                                                <rect key="frame" x="0.0" y="71" width="320" height="71"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rTm-G3-deF">
+                                                        <rect key="frame" x="0.0" y="0.0" width="80" height="71"/>
+                                                        <accessibility key="accessibilityConfiguration" label="4"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                        <state key="normal" title="4">
+                                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="numberSelected:" destination="8mU-NI-3PM" eventType="touchUpInside" id="tht-sn-dSo"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Se-RN-pgZ">
+                                                        <rect key="frame" x="80" y="0.0" width="80" height="71"/>
+                                                        <accessibility key="accessibilityConfiguration" label="5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                        <state key="normal" title="5">
+                                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="numberSelected:" destination="8mU-NI-3PM" eventType="touchUpInside" id="DKK-OJ-inr"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NbG-23-VA1">
+                                                        <rect key="frame" x="160" y="0.0" width="80" height="71"/>
+                                                        <accessibility key="accessibilityConfiguration" label="6"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                        <state key="normal" title="6">
+                                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="numberSelected:" destination="8mU-NI-3PM" eventType="touchUpInside" id="JOz-ol-Ofj"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zES-c3-49V">
+                                                        <rect key="frame" x="240" y="0.0" width="80" height="71"/>
+                                                        <accessibility key="accessibilityConfiguration" label="x"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                        <state key="normal" title="x">
+                                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="operationSelected:" destination="8mU-NI-3PM" eventType="touchUpInside" id="0xi-nn-Z5R"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="qSX-zf-SrH">
+                                                <rect key="frame" x="0.0" y="142" width="320" height="71"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RNU-7g-SM4">
+                                                        <rect key="frame" x="0.0" y="0.0" width="80" height="71"/>
+                                                        <accessibility key="accessibilityConfiguration" label="7"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                        <state key="normal" title="7">
+                                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="numberSelected:" destination="8mU-NI-3PM" eventType="touchUpInside" id="mTt-f7-g36"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DB0-kA-tll">
+                                                        <rect key="frame" x="80" y="0.0" width="80" height="71"/>
+                                                        <accessibility key="accessibilityConfiguration" label="8"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                        <state key="normal" title="8">
+                                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="numberSelected:" destination="8mU-NI-3PM" eventType="touchUpInside" id="PWP-w0-EwG"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pa0-Mb-Q0M">
+                                                        <rect key="frame" x="160" y="0.0" width="80" height="71"/>
+                                                        <accessibility key="accessibilityConfiguration" label="9"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                        <state key="normal" title="9">
+                                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="numberSelected:" destination="8mU-NI-3PM" eventType="touchUpInside" id="1Ts-nD-Lhb"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TMm-EA-SSY">
+                                                        <rect key="frame" x="240" y="0.0" width="80" height="71"/>
+                                                        <accessibility key="accessibilityConfiguration" label="-"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                        <state key="normal" title="-">
+                                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="operationSelected:" destination="8mU-NI-3PM" eventType="touchUpInside" id="D4E-u5-eU7"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Ja4-LY-Xjm">
+                                                <rect key="frame" x="0.0" y="213" width="320" height="71"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fbb-Rv-xZy">
+                                                        <rect key="frame" x="0.0" y="0.0" width="80" height="71"/>
+                                                        <accessibility key="accessibilityConfiguration" label="0"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                        <state key="normal" title="0">
+                                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="numberSelected:" destination="8mU-NI-3PM" eventType="touchUpInside" id="Ezh-zZ-5sa"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cel-WX-uPK">
+                                                        <rect key="frame" x="80" y="0.0" width="80" height="71"/>
+                                                        <accessibility key="accessibilityConfiguration" label="."/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                        <state key="normal" title=".">
+                                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="numberSelected:" destination="8mU-NI-3PM" eventType="touchUpInside" id="TKq-0N-iDy"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EpZ-UJ-p7h">
+                                                        <rect key="frame" x="160" y="0.0" width="80" height="71"/>
+                                                        <accessibility key="accessibilityConfiguration" label="="/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                        <state key="normal" title="=">
+                                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="calculateResults:" destination="8mU-NI-3PM" eventType="touchUpInside" id="CKj-qD-hmt"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Mv-tY-Kmr">
+                                                        <rect key="frame" x="240" y="0.0" width="80" height="71"/>
+                                                        <accessibility key="accessibilityConfiguration" label="+"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                        <state key="normal" title="+">
+                                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="operationSelected:" destination="8mU-NI-3PM" eventType="touchUpInside" id="Pd4-KA-Kex"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
                                 </subviews>
-                                <animations/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <accessibility key="accessibilityConfiguration" label="topContainerView">
-                                    <bool key="isElement" value="YES"/>
-                                </accessibility>
-                            </view>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Lvx-iX-YZJ" secondAttribute="trailing" id="0Po-9g-n3c"/>
+                                    <constraint firstAttribute="bottom" secondItem="GyT-9J-vd5" secondAttribute="bottom" id="1L6-5l-p3d"/>
+                                    <constraint firstItem="GyT-9J-vd5" firstAttribute="top" secondItem="Lvx-iX-YZJ" secondAttribute="bottom" id="JcR-VY-7Eo"/>
+                                    <constraint firstItem="GyT-9J-vd5" firstAttribute="top" secondItem="Lvx-iX-YZJ" secondAttribute="bottom" id="Ob7-sY-AGc"/>
+                                    <constraint firstItem="Lvx-iX-YZJ" firstAttribute="top" secondItem="42s-Wj-R1Z" secondAttribute="top" id="Qfl-RU-2Z8"/>
+                                    <constraint firstItem="GyT-9J-vd5" firstAttribute="leading" secondItem="42s-Wj-R1Z" secondAttribute="leading" id="hIe-gY-FrD"/>
+                                    <constraint firstAttribute="trailing" secondItem="GyT-9J-vd5" secondAttribute="trailing" id="ogH-mc-9Rb"/>
+                                    <constraint firstItem="Lvx-iX-YZJ" firstAttribute="leading" secondItem="42s-Wj-R1Z" secondAttribute="leading" id="rmC-Fz-AMi"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="42s-Wj-R1Z" secondAttribute="trailing" id="VvB-Dn-nwt"/>
+                            <constraint firstItem="jmo-tK-uKU" firstAttribute="top" secondItem="42s-Wj-R1Z" secondAttribute="bottom" id="Yzi-VR-iWY"/>
+                            <constraint firstItem="42s-Wj-R1Z" firstAttribute="top" secondItem="EiG-5C-bgp" secondAttribute="top" id="i3W-qf-kDE"/>
+                            <constraint firstItem="42s-Wj-R1Z" firstAttribute="leading" secondItem="EiG-5C-bgp" secondAttribute="leading" id="iQ5-kM-ia4"/>
+                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="displayLabel" destination="A1f-D0-jtm" id="BG5-nU-vyD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ec3-7u-aR1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1269.375" y="142.6056338028169"/>
+            <point key="canvasLocation" x="1269" y="142"/>
         </scene>
     </scenes>
 </document>
